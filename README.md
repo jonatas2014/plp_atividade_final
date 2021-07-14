@@ -1,5 +1,5 @@
 # Plp_atividade_final
-Repositório da atividade final de plp: programação orientada à objetos
+Repositório da atividade final de Paradigmas de Linguagens de Programação: programação orientada à objetos
 
 # Equipe
 
