@@ -78,8 +78,6 @@ class ForecastDisplay(Observer, DisplayElement):
         elif (self.currentPressure < self.lastPressure):
             print("Forecast: Watch out for cooler, rainy weather")
         
-    
-
 class ThirdPartDisplay(Observer, DisplayElement):
 
     def __init__(self, weather_data):
@@ -88,7 +86,7 @@ class ThirdPartDisplay(Observer, DisplayElement):
 
     def update(self, temperature, humidity, pressure):
         #Do something else based on the intent of the developer
-        pass
+	self.display()
 
     def display(self):
         #display something else based on measurements
